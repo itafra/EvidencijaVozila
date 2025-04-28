@@ -5,12 +5,11 @@ public class Automobil extends Vozilo {
         super(marka, registarskiBroj, godinaProizvodnje);
         this.brojVrata = brojVrata;
     }
-    public class Main {
+
         public static void main(String[] args) {
             Automobil automobil = new Automobil("Toyota", "ZG1234AB", 2020, 4);
             automobil.prikaziPodatke();
         }
-    }
 
     public int getBrojVrata() {
     return brojVrata;
