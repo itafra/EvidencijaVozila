@@ -12,7 +12,7 @@ public class Vozilo {
     }
 
     public static void main(String[] args) {
-        Vozilo vozilo = new Vozilo("Toyota","ZG1234AB", 2020);
+        Vozilo vozilo = new Vozilo("Toyota", "ZG1234AB", 2020);
         vozilo.prikaziPodatke();
         vozilo.ucitajPodatke();
         vozilo.prikaziPodatke();
@@ -25,7 +25,7 @@ public class Vozilo {
         this.marka = scanner.nextLine();
         System.out.println("Upisite registarski broj vozila: ");
         this.registarskiBroj = scanner.nextLine();
-        System.out.println("Upisite godinu proizvodnje vozila:");
+        System.out.println("Upisite godinu proizvodnje vozila: ");
         this.godinaProizvodnje = Integer.parseInt(scanner.nextLine());
     }
 
