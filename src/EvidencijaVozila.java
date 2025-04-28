@@ -38,4 +38,10 @@ public class EvidencijaVozila {
             System.err.println("Greška prilikom spremanja podataka u datoteku: " + e.getMessage());
         }
     }
+
+    public void prikaziSvaVozila() {
+    }
+
+    public void ucitajPodatkeIzDatoteke(String file) {
+    }
 }
